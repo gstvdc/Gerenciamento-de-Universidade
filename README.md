@@ -1,5 +1,12 @@
 # 🎓 Sistema de Gerenciamento de Universidade
 
+<p align="center">
+  <img src="banner.png" alt="Banner - Sistema de Gerenciamento de Universidade" width="100%">
+</p>
+
+<h1 align="center">🎓 Sistema de Gerenciamento de Universidade</h1>
+
+
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Swing](https://img.shields.io/badge/Swing-007ACC?style=for-the-badge&logo=java&logoColor=white)
