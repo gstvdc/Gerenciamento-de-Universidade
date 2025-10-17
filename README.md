@@ -1,9 +1,5 @@
 # 🎓 Sistema de Gerenciamento de Universidade
 
-<p align="center">
-  <img src="banner.png" alt="Banner - Sistema de Gerenciamento de Universidade" width="100%">
-</p>
-
 <h1 align="center">🎓 Sistema de Gerenciamento de Universidade</h1>
 
 
