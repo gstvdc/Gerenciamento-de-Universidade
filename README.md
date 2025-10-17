@@ -3,8 +3,7 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Swing](https://img.shields.io/badge/Swing-007ACC?style=for-the-badge&logo=java&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
+![Status](https://img.shields.io/badge/Status-Desenvolvido-green)
 
 ---
 
@@ -99,26 +98,7 @@ SistemaGerenciamento/
 
 ---
 
-## 🧾 Licença
-
-Este projeto está licenciado sob os termos da licença **MIT**.  
-Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-```
-MIT License
-
-Copyright (c) 2025 ...
-Permission is hereby granted, free of charge, to any person obtaining a copy...
-```
-
----
-
 ## 💡 Autor
 
-**Gustavo Cunha**  
-💼 Desenvolvedor Java | 💬 Apaixonado por tecnologia e sistemas educacionais  
-📧 Entre em contato: *adicione seu e-mail ou LinkedIn aqui*
-
----
-
-> 💬 *"Educação e tecnologia caminham lado a lado. Automatizar processos acadêmicos é o primeiro passo para um ensino mais moderno e acessível."*
+**Gustavo Constante**  
+www.linkedin.com/in/gstvdc
