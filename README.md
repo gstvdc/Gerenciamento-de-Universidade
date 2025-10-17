@@ -1,40 +1,124 @@
-🎓 Sistema de Gerenciamento de Universidade
+# 🎓 Sistema de Gerenciamento de Universidade
 
-Aplicação desktop desenvolvida em Java (Swing) com integração ao PostgreSQL, voltada para o gerenciamento de dados acadêmicos de uma instituição de ensino.
-O sistema permite cadastrar cursos, fases, disciplinas e professores, além de realizar manutenção dos dados diretamente no banco.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Swing](https://img.shields.io/badge/Swing-007ACC?style=for-the-badge&logo=java&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
 
-Projetado com arquitetura modular e padrão DAO, oferece uma interface simples e intuitiva para o usuário e uma estrutura de código organizada para fácil manutenção e evolução.
+---
 
-⚙️ Tecnologias Utilizadas
+## 🧩 Sobre o Projeto
 
-Java SE 8+
+O **Sistema de Gerenciamento de Universidade** é uma aplicação **desktop em Java (Swing)** com integração ao **PostgreSQL**, criada para facilitar o **gerenciamento acadêmico** de uma instituição de ensino.  
+O sistema permite o **cadastro e administração de cursos, disciplinas, fases e professores**, armazenando tudo de forma segura em banco de dados.
 
-Swing para interface gráfica
+Seu código segue o **padrão DAO (Data Access Object)**, garantindo organização, separação de responsabilidades e facilidade de manutenção.
 
-PostgreSQL + JDBC para persistência
+---
 
-Padrão DAO (Data Access Object) para acesso estruturado ao banco de dados
+## 🚀 Funcionalidades Principais
 
-Maven opcional (pode ser executado diretamente pelo Eclipse)
+✅ Cadastro de **Cursos**  
+✅ Cadastro de **Disciplinas**  
+✅ Cadastro de **Professores**  
+✅ Cadastro de **Fases Acadêmicas**  
+✅ Conexão com banco **PostgreSQL** via JDBC  
+✅ Interface amigável com **Java Swing**
 
-Driver JDBC PostgreSQL integrado manualmente
+---
 
-🚀 Funcionalidades
+## ⚙️ Tecnologias Utilizadas
 
-Cadastro e gerenciamento de Cursos
+| Tecnologia | Descrição |
+|-------------|------------|
+| ☕ **Java SE 8+** | Linguagem base da aplicação |
+| 🧰 **Swing** | Interface gráfica desktop |
+| 🗃️ **PostgreSQL** | Banco de dados relacional |
+| 🔌 **JDBC Driver** | Conexão entre Java e PostgreSQL |
+| 🧱 **Padrão DAO** | Estrutura de acesso aos dados |
+| 🧑‍💻 **Eclipse IDE** | Ambiente de desenvolvimento |
 
-Cadastro de Disciplinas
+---
 
-Cadastro de Professores
+## 🗄️ Configuração do Banco de Dados
 
-Cadastro de Fases acadêmicas
+1️⃣ Crie o banco de dados no PostgreSQL:
+```sql
+CREATE DATABASE sistema_gerenciamento;
+```
 
-Conexão com banco PostgreSQL
+2️⃣ Configure a conexão no arquivo `src/banco/conexao.java`:
+```java
+String url = "jdbc:postgresql://localhost:5432/sistema_gerenciamento";
+String user = "postgres";
+String password = "SUA_SENHA_AQUI";
+Connection conexao = DriverManager.getConnection(url, user, password);
+```
 
-Interface desktop amigável
+3️⃣ Adicione o **driver JDBC do PostgreSQL** ao projeto:
+- Clique com o botão direito no projeto → **Build Path → Configure Build Path → Add External JARs…**
+- Selecione o arquivo `postgresql-<versão>.jar` e clique em **Apply and Close**.
 
-Sistema modular e extensível
+---
 
-💡 Objetivo
+## ▶️ Como Executar
 
-Este projeto foi desenvolvido com fins acadêmicos e didáticos, servindo como base para estudos de integração entre Java e bancos relacionais, boas práticas de código e versionamento com Git/GitHub.
+### 🧠 No Eclipse
+1. Importe o projeto (**File → Open Projects from File System...**)
+2. Abra a classe `Main.java` em `src/telalogin/`
+3. Clique com o botão direito → **Run As → Java Application**
+
+### 📦 Gerar o .jar executável
+1. **File → Export → Runnable JAR file**
+2. Escolha `telalogin.Main` como classe principal
+3. Marque *Package required libraries into generated JAR*
+4. Salve como `SistemaGerenciamento.jar`
+5. Execute:
+```bash
+java -jar SistemaGerenciamento.jar
+```
+
+---
+
+## 🧱 Estrutura do Projeto
+
+```
+SistemaGerenciamento/
+├── src/
+│   ├── banco/          # DAOs e conexão com o banco
+│   └── telalogin/      # Telas e lógica da interface Swing
+├── resources/
+│   └── icons/          # Ícones da interface
+├── bin/                # Classes compiladas (não versionadas)
+├── .classpath
+├── .project
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🧾 Licença
+
+Este projeto está licenciado sob os termos da licença **MIT**.  
+Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+```
+MIT License
+
+Copyright (c) 2025 ...
+Permission is hereby granted, free of charge, to any person obtaining a copy...
+```
+
+---
+
+## 💡 Autor
+
+**Gustavo Cunha**  
+💼 Desenvolvedor Java | 💬 Apaixonado por tecnologia e sistemas educacionais  
+📧 Entre em contato: *adicione seu e-mail ou LinkedIn aqui*
+
+---
+
+> 💬 *"Educação e tecnologia caminham lado a lado. Automatizar processos acadêmicos é o primeiro passo para um ensino mais moderno e acessível."*
