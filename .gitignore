@@ -1,0 +1,20 @@
+# === Eclipse / Projeto ===
+/bin/
+/.settings/
+/.metadata/
+.classpath
+.project
+
+# === Java / Build ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# === Sistema ===
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
